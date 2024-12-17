@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 243, 243);
+}
+
+.navBar{
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(115, 157, 255);
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 30%;
+    /* background-color: beige; */
+    display: flex;
+    padding-top: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    height: 100%;
+    width: 70%;
+    /* background-color: rgb(243, 243, 130); */
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 6vw;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.right a{
+    text-decoration: none;
+    /* background-color: aqua; */
+    font-size: 1.4vw;
+    height: 7vw;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    color: black;
+}
+
+.Home{
+    height: 50vh;
+    width: 40vw;
+    background-color: blue;
+    position: absolute;
+    top: 15vh;
+    right: 21vw;
+    display: none;
+}
+
+.Hhome:hover ~ .Home{
+    display: block;
+}
+
+.Home:hover{
+    display: block;
+}
